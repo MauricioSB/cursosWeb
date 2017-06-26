@@ -1,0 +1,186 @@
+/*Cuerpo de la página web*/
+body {
+	background: #fff;
+	padding: 0px;
+	margin: 0px;
+}
+
+#menu h1{
+	text-align: center;
+	padding: 30px;
+	margin: 0px;
+	border: 0px;
+	background: #BDB2B2;
+	color: #fff;
+	font-family: Arial;
+	font-size: 40px;	
+}
+
+/*Centra el texto contenido en h1*/
+h1 {
+	text-align: center;
+	padding: 30px;
+	margin: 40px;
+	border: 0px;
+	background: #24BE3D;
+	color: #fff;
+	font-family: Arial;
+	font-size: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0,0,0);
+}
+
+a:hover {
+	color: #ccc;
+}
+
+li:hover a{
+	background: #ccc; 
+}
+
+/*Deja por un tiempo indefinido brillando al
+botón de nuestra página*/
+li:.activo a{
+	background: #ccc; 
+}
+
+div.none ul{
+	list-style: none;
+}
+
+/*Enlinea las etiquetas bloque*/
+li {
+	display: inline;
+
+}
+
+/*Clase que permite entrar el menu
+del proyecto */
+.menu-navegacion {
+	text-align: center;
+}
+
+/*Clase que solo afecta a la etiqueta a*/
+.menu-navegacion a{
+	display: inline-block;
+	font-family: Arial;
+	color: #fff;
+	width: 100px;
+	height: 15px;
+	background: #24BE3D;
+	font-size: 16px;
+	padding: 10px;
+	margin: 0px 10px 0px 0px;
+
+}
+
+/*Clase que permite darle salto a
+las líneas*/
+.consalto {
+	display: block;
+}
+
+/*Marca una línea y lo atrapa en un cuadro
+de texto*/
+.datos {
+
+	border: 1px solid #ccc;
+	width: 30%;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+/*Justifica el texto*/
+.centrar-justificar {		
+	text-align: justify;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.serio {
+	font-family: Arial;
+}
+
+.divPadre {
+	background: #fff;
+	/*Margen interior*/
+	padding: 0px;
+	/*Borde*/
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	position: absolute;
+	
+}
+
+.centrar {
+	position: absolute;
+	right: 500px;
+	bottom: 250px;
+}
+
+.centrar2{
+	float: right;
+	width: 850px;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+.centrar3 {
+	position: absolute;
+	right: 500px;
+	bottom: 160px;	
+}
+
+.separacion {
+	margin: 40px;
+}
+
+		
+.none ul, ol {
+	list-style:none;
+}
+
+.nav > li {
+	float:left;
+}
+
+.nav li a {
+	background-color:#24BE3D;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+
+.nav li a:hover {
+	background-color: #30DC3B;
+}
+
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+
+.nav li:hover > ul {
+	display:block;
+}
+
+.nav li ul {
+	position:relative;
+}
+
+.nav li ul {
+	right:-140px;
+	top:0px;
+}

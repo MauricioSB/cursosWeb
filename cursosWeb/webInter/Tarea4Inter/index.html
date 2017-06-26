@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Tarea 4</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var user = prompt("¿Cuál es tu pregunta?");
+		var cpu = Math.random();
+		if (cpu <= 0.33) {
+			document.write("Si");
+			//cpu = "Si";
+		} else if (cpu < 0.40) {
+			document.write("Tal vez");
+			//cpu = "Tal vez";
+		} else if (cpu >= 0.76) {
+			document.write("No");
+			//cpu = "No";
+		} else if (cpu > 0.90) {
+			document.write("No cuentes con ello");
+			//cpu = "No cuentes con ello"
+		} else {
+			alert("No abuses de mi, también" + 
+				" "	+ "tengo sentimientos");
+		}
+		
+	</script>
+</body>
+</html>

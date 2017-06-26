@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Proyecto Básico</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+ 	<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet"> 	 		
+</head>
+<body>
+
+	<!--Inicia barra de navegación-->
+	<nav class="navbar navbar-default fondo quitarEspacio">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand title" href="index.html">Metal House</a>
+	    </div>
+	
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="index.html">Inicio <span class="sr-only">(current)</span></a></li>
+	        <li><a href="bandas.html">Bandas</a></li>
+	        <li><a href="noticias.html">Noticias</a></li>
+	        <li><a href="tablaturas.html">Tablaturas</a></li>	        
+	        <li class="dropdown">
+	          <a href="festivales.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Festivales<span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="http://www.wacken.com/en/shop/tickets/" target="_blank">Wacken</a></li>
+	            <li><a href="http://www.hellfest.fr/" target="_blank">HellFest</a></li>
+	            <li><a href="http://hellandheavenfest.com/" target="_blank">Hell and Heaven</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="http://www.obsceneextreme.cz/en" target="_blank">Grind</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="https://infestuk.com/" target="_blank">Gothic</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<!--Termina barra de navegación-->
+
+  <!-- Inicia Carrusel-->
+  
+  <header id="myCarousel" class="carousel slide"> 
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/c1.jpg" alt="Wacken 2017">
+  	<div class="carousel-caption">
+    	<h3>Próximamente Wacken 2017</h3>
+    	<p>Toda la información sobre el evento más 
+    	grande de la cultura metal <a href="http://www.wacken.com/en/shop/tickets/" target="_blank">aquí</a></p>
+  	</div>
+    </div>
+    <div class="item">
+      <img src="img/Electric-Guitar-1920x1080.jpg" alt="Tablaturas">
+      <div class="carousel-caption">
+      <h3>Las mejores tablaturas de Internet</h3>
+    	<p>Nuevas partituras y tablaturas todos los días
+    	para todos los intrumentos</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/c3.jpg" alt="Ghost">
+      <div class="carousel-caption">
+      <h3>Papa Emeritus en problemas legales</h3>
+    	<p>Nameless Ghouls demandan al vocalista de
+    	Ghost por abuso laboral, enterate <a href="noticias.html">aquí</a>
+    	</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/c2.jpg" alt="Powerwolf">
+      <div class="carousel-caption">
+      <h3>Banda de la semana</h3>
+    	<p>Powerwolf,<a href="power.html"> conoce esta grandiosa
+    	banda de Symphonic Power Metal</a></p>
+      </div>
+    </div>    
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel"  data-slide="prev">
+  </a>
+    <span class="icon-prev" aria-hidden="true"></span>
+  <a class="right carousel-control" href="#myCarousel"  data-slide="next">
+  <!--icon-prev es el ícono predefinido por Bootstrap (next y/o prev)-->
+    <span class="icon-next" aria-hidden="true"></span>
+    </a>
+  </header>
+
+  <!--Termina Carrusel-->
+
+	<!--Inicia footer-->
+	<div class="fondo">	
+  	<footer>
+    	<div class="row">
+      	<div class="col-md-12">
+        	<center>
+          	<p>Copyight &copy; 2017</p>
+          	<p>Hecho por: Suárez Barrera Mauricio</p>
+          	<p>Redes Sociales:
+          		<br>
+          		<a href="https://www.youtube.com/user/NuclearBlastEurope/featured">YouTube</a>
+          		<br>
+          		<a href="https://www.facebook.com/cuartelmetal/">Facebook</a>
+          		<br>
+          		<a href="https://twitter.com/KaiserWolf6">Twitter</a>
+          	</p>
+        	</center>
+				</div>
+			</div>
+		</footer>	
+	</div>
+
+	<!--Termina footer-->
+
+</body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</html>

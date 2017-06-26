@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Primer juego</title>
+</head>
+<body>
+	
+</body>
+<script>
+	document.write("<h1>Hallo challengers</h1>");
+	var user = prompt("¿piedra, papel o tijera");
+	var cpu = Math.random();
+	if (cpu <= 0.33) {
+		cpu = "piedra";
+	} else if(cpu >= 0.67) {
+		cpu = "tijera";
+	} else {
+		cpu = "papel";
+	}
+
+	function comparar(eleccion1, eleccion2) {
+		if (eleccion1 == eleccion2) {
+			alert("Draw!");
+			// === "Exactamente igual"
+		} else if(eleccion1 === "piedra") {
+			if (eleccion2 === "tijera") {
+				alert("You: " +eleccion1+ "Cpu: " 
+					+eleccion2+ "\n\n win");
+			} else {
+				alert("You: " +eleccion1+ "Cpu: " 
+					+eleccion2+ "\n\n lose");
+			}
+		} else if(eleccion1 === "tijera") {
+			if (eleccion2 === "piedra") {
+				alert("You: " +eleccion1+ "Cpu: " 
+					+eleccion2+ "\n\n win");
+			} else {
+				alert("You: " +eleccion1+ "Cpu: " 
+					+eleccion2+ "\n\n lose");
+			}
+		} else if(eleccion1 === "papel") {
+			if (eleccion2 === "piedra") {
+				alert("You: " +eleccion1+ "Cpu: " 
+					+eleccion2+ "\n\n win");
+			} else {
+				alert("You: " +eleccion1+ "Cpu: " 
+					+eleccion2+ "\n\n lose");
+			}
+		} else {
+			alert("No es válido");
+		}
+	}
+
+	comparar(user, cpu);
+</script>
+</html>

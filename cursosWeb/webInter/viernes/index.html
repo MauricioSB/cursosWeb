@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Primer Ejemplo JavaScript</title>
+</head>
+<body>
+
+	<!--Onclick esta a la espera de un click-->
+	<p id="uno" onclick="cambiar()">Hola dame click</p>
+
+</body>
+	
+	<script>
+		/*Cambia el evento*/
+		function cambiar() {
+			//innerHTML entra al elemento de html en busca de un id para realizar un evento
+			document.getElementById("uno").innerHTML = "Hiciste"+
+			"click!";
+		}
+	</script>
+
+</html>

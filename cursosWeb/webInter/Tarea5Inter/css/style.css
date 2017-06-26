@@ -1,0 +1,36 @@
+.descarga img{
+	width: 50%;
+	height: auto;
+}
+
+.slogan {
+	text-shadow: 2px 2px 4px #000;
+	color: white;
+	top: 1000px;
+}
+
+.fuente {
+	text-align: justify;
+}
+
+.move {
+	margin-right: 180px;
+}
+
+.texto-move {
+	margin-top: 220px;
+}
+
+.move2 {
+	padding-left: 100px;
+}
+
+.sombra {
+	text-shadow: 2px 2px 4px #000;
+	color: white;	
+}
+
+.logo {
+	height: 300px;
+	width: 300px;
+}

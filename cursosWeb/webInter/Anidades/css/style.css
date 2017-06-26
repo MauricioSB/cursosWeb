@@ -1,0 +1,103 @@
+/* etiqueta body a modificar en css
+ *atributo background: fondo de la página; */
+body {
+	background: #0C7EFE;
+	margin: 0px;
+}
+/*background-color: da color a solo a un bloque; */
+h1 {
+	color: #fff;
+
+}
+/*titulo es una clase en css
+ */
+.titulo {
+	background-color: black;	
+}
+/*list style none quita los puntos
+ */
+ul {
+
+	list-style: none;
+}  
+
+a {
+	text-decoration: none;
+	color: rgb(0,0,0);
+	/*color: rgba(0,0,0,0); para opacar*/
+}
+/*Cada vez que el apuntador pase sobre los links brilla este*/
+a:hover {
+	color: #ccc;
+}
+/*Cualquier cosa que tenga etiqueta a lo rellena de color rojo*/
+.menu-navegacion {
+	text-align: center;
+}
+
+li {
+	display: inline;
+}
+
+.consalto {
+	display: block;
+}
+
+.menu-navegacion a{
+	display: inline-block;
+	background: black;
+	color: #fff;
+	width: 100px;
+	height: 15px;
+	font-size: 16px;
+	padding: 10px;
+	margin: 0px 10px 0px 0px;
+}
+
+li:hover a{
+	background: #ccc;
+}
+
+li.activo a{
+	background: #ccc;
+
+}
+
+h1 {
+	text-align: center;
+	padding: 30px;
+	margin: 0px;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+}
+
+.informacion-personal {
+	border: 1px solid #ccc;
+	width: 30%;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.footer {
+	background: gray;
+	padding: 20px;
+}
+/*Siempre se debe justificar el texto*/
+.centrar-justificar {
+	text-align: justify;
+		
+}
+
+/* Se separa para modificar dos o más etiquetas en html*/
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 20px;
+}

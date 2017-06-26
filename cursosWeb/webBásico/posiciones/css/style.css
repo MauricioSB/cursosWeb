@@ -1,0 +1,90 @@
+/*Para posicionar nuestro elemento u objeto*/
+div {
+	width: 100px;
+	height: 100px;
+	background: blue;
+	float: left;
+	font-size: 30px;
+}
+
+
+/*Quitar el margen exterior*/
+body {
+	margin: 0px;
+}
+
+/*Clase para la caja padre*/
+.cajaPadre {
+	height: 200px;
+	background: #000;
+	position: absolute;
+	top: 325px;
+	left: 500px;
+}
+
+.caja {
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+.caja2 {
+	position: absolute;
+	top: 200px;
+	left: 0px;	
+}
+
+.caja3 {
+	position: absolute;
+	top: 300px;
+	left: 0px;	
+}
+
+.caja4 {
+	position: absolute;
+	bottom: 00px;
+	left: 400px;
+	top: 300px;	
+}
+
+.caja5 {
+	position: absolute;
+	bottom: 0px;
+	left: 200px;
+	top: 200px;	
+} 
+
+.caja6 {
+	position: absolute;
+	bottom: 00px;
+	left: 100px;
+	right: 0px;	
+}
+
+.caja7 {
+	position: absolute;
+	bottom: 00px;
+	left: 300px;
+	top: 100px;	
+}
+
+.caja8 {
+	position: absolute;
+	bottom: 00px;
+	left: 400px;
+	top: 00px;	
+}
+
+.caja9 {
+	position: absolute;
+	bottom: 00px;
+	left: 400px;
+	top: 100px;		
+}
+
+.caja10 {
+	position: absolute;
+	bottom: 00px;
+	left: 400px;
+	top: 200px;	
+}

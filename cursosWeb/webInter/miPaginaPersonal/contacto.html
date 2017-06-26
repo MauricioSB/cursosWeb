@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Mi página personal</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
+</head>
+<body>
+
+	<!--Inicia barra de navegación-->
+<nav class="navbar navbar-default fondo quitarEspacio">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"> <img src="img/16x16_nr_6565461.jpg" alt="Este es mi logo"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Inicio <span class="sr-only">(current)</span></a></li>
+        <li><a href="biografia.html">Biografía</a></li>
+        <li class="active"><a href="contacto.html">Contacto</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Redes Sociales<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+            <li><a href="https://youtube.com" target="_blank">Youtube</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	<!-- Fin de la barra de navegación-->
+
+  <!--Inicia COntenido-->
+
+  <div class="container">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+    <div class="row">
+      <div class="col-md-8">
+        <iframe class="img-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.188775285018!2d-99.23677969984152!3d19.36097709792058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d200f584442b1d%3A0xd8a2d7ef2d06cf53!2sTepeaca%2C+Mexico+City%2C+CDMX!5e0!3m2!1sen!2smx!4v1497974488546" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-4">
+        <h2>Contacto</h2>
+        <p>
+        <button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+</button>Calle Pajuil <br>Álvaro Obregón <br> 01550</p>
+        <p><button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+</button><abbr title="Phone">P:</abbr>5528824692</p>
+        <p><button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+</button><abbr title="Email">E:</abbr><a href="kaiserwolf18@gmail.com">kaiserwolf18@gmail.com</a></p>
+        <p><button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span>
+</button><abbr title="Horario">H:</abbr>9:00-17:00</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <h3>Envia un mensaje</h3>
+<form>
+  <!--Espacio para el correo-->
+  <div class="form-group">
+    <label for="exampleInputEmail1">Ingresa tu correo</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Correo">
+  </div>
+    <!--Espacio para el password-->
+  <div class="form-group">
+    <label for="exampleInputPassword1">Contraseña</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+  </div>
+    <!--Espacio para el mensaje-->
+  <div class="control group form-group">
+  <div class="controls"></div>
+    <label>Mensaje:</label>
+    <textarea cols="100" rows="10" class="form-control" id="message" required="" data-validation-required-message="Por favor ingresa un mensaje" maxlength="999" style="resize: none;">
+      
+    </textarea>
+  </div>
+  <button type="submit" class="btn btn-info">Enviar</button>
+
+</form>        
+      </div>
+    </div>
+  </div>
+
+  <!--FIn del contenido-->
+
+
+  <!-- Inicia Footer-->
+  
+  <footer>
+    <div class="row">
+      <div class="col-lg-12">
+        <center>
+          <p>Copyight &copy; 2017</p>
+        </center>
+			</div>
+		</div>
+	</footer>	
+
+	<!-- Termina Footer -->
+
+</body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</html>

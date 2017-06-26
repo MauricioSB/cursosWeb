@@ -1,0 +1,41 @@
+/*# es para definir una clase id*/
+#caja4 {
+	width: 300px;
+	height: 100px;
+	background-color: orange;
+}
+
+/*@media es para definir un media Query
+all: aplica para todo los dispositivos
+print: se usa todo lo relacionado con
+cuadros de texto o archivos
+sceen: esto va a las pantallas de pc o laps
+only: solo se va a aplicar a lo que esta dentro
+de nuestros elementos
+and: operador lógico (parecido a Pyhton)
+not: negación despues de las sentencias
+(and, not, etc) se usa "()"
+rango tablets: aprox 760px
+*El método esta definiendo un rango de pantallas
+para tablets
+*/
+@media only screen and (min-width: 768px)
+	   and (max-width: 940px) {
+/*Despues de media va la clase id*/
+	#caja4 {  
+	width: 600px;
+	background-color: red;
+	}
+}
+
+/*Estilo para SmartPhones*/
+@media only screen and (min-width: 400px)
+	   and (max-width: 767px) {
+/*Despues de media va la clase id*/
+	#caja4 {  
+	width: 400px;
+	background-color: green;
+	border-spacing: none;
+	}
+}
+

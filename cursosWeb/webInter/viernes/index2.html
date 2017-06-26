@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo 2 de JavaScript</title>
+</head>
+<body>
+	
+	<button id="cambiarTexto">Cambia el primer div</button>
+	
+	<div id="primerDiv">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, quis aut. Omnis dolore sit tempore velit, illum, aspernatur. Dolorum nobis modi ducimus alias nam sapiente quo! Placeat tempora quas quae?</div>
+
+	<button id="concatenar">Concateno texto al segundo div
+	</button>
+	<div id="segundoDiv">El titular del curso es:</div>
+	
+	<button id="creador">Crea texto html</button>
+
+	<div id="tercerDiv"></div>
+	
+	<button id="sumar">Sumar</button>
+
+	<div id="cuartoDiv">Dame valores</div>
+
+</body>
+	<script>
+		document.getElementById("cambiarTexto").onclick = function() {
+			console.log("Imprimí en consola");
+			alert(document.getElementById("primerDiv").innerHTML);
+		}
+
+		/*Regresa el contenido de concatenar*/
+		document.getElementById("concatenar").onclick = 
+			function() {
+			//Regresa el contenido de segundoDiv
+			//Concatena el contenido de segundoDiv con un String
+			document.getElementById("segundoDiv").innerHTML=
+			document.getElementById("segundoDiv").innerHTML + "Luis Lara (alias Ludo)" 
+		}
+
+		/*Crea una etiqueta HTML desde JS*/
+		document.getElementById("creador").onclick =
+		function() {
+			document.getElementById("tercerDiv").innerHTML =
+			"<h3>Hola fui creado por JavaScript</h3>"
+		}
+
+		/*Suma dos elementos*/
+		//Función Anónima
+		function suma(a, b) {
+			return a + b;
+		}
+
+		function sumarDiv(a, b) {
+			console.log("Hola");
+			document.getElementById("cuartoDiv").innerHTML =
+			a + b;
+		}
+
+		//console.log(suma(10, 10));
+
+		document.getElementById("sumar").onclick = sumarDiv(10, 19);
+
+	</script>
+</html>

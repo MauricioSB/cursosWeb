@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Selectores por atributos</title>
+	<style>
+		/*etiqueta[atributo] {} */
+		a[target=_blank] {
+			background-color: gray;
+		}
+
+		p[lang|=en] {
+			background-color: yellow;
+		}
+
+		p[lang|=ger] {
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<p>Cualquier etiqueta a que tenga el atributo
+	target será de color</p>
+	<a href="https://es.wikipedia.org/wiki/Therion">Wikipedia</a>
+	<a href="https://www.google.com.mx/?gfe_rd=cr&ei=p2dBWeaUF-_z8AfRo71I&gws_rd=ssl" target="_blank">Google</a>
+	<a href="https://twitter.com/" target="_blank">Twitter</a>
+	<a href="https://www.w3schools.com/" target="_top">w3schools</a>
+	
+	<p>¿Qué pasará aquí?</p>
+
+	<p lang="en">Hello!</p>
+	<p lang="en-us">Hi!</p>
+	<p lang="en-gb">Ello!</p>
+	<p lang="us">Hi!</p>
+	<p lang="no">Hey!</p>
+	<p lang="ger">Hallo!</p>
+
+</body>
+</html>

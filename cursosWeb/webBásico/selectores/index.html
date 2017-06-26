@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Selectores avanzados</title>
+	<!-- No recomendado usar etiqueta style-->
+	<style>
+		/* elemento: nth-child(numero de hijo) {
+			(selector descendente)
+			}
+			*/
+		/*span:siemprevajunto; */
+		span:nth-child(5) {
+			background-color: blue;
+		}
+
+		span:nth-child(2n) {
+			background-color: yellow;
+		}
+		
+		/*Padre > hijo {} */
+		div > h2 {
+			background-color: gray;
+		}
+		/*elemento1 + elemento2 {} (selector adyacente) */
+		div + p{
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	
+	<span>Primer span</span>
+	<span>Segundo span</span>
+	<span>Tercer span</span>
+	<span>Cuarto span</span>
+	<span>Quinto span</span>
+	<span>Sexto span</span>
+	<span>Septimo span</span>
+	<span>Octavo span</span>
+	<span>Noveno span</span>
+
+	<div>
+		<h2>Soy un tanque</h2>
+		<img src="img/uu.JPG" alt="Soy un tanque">
+		<p>Peso Total: 60 toneladas</p>
+		<p>Velocidad máx: 50km/h</p>
+		<p>Armamento principal: cañon</p>	
+	</div>
+
+	<div>
+		<a href=""><p>No tengo estilo porque no estoy
+		después de div</p></a>
+	</div>
+
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde maiores neque rerum nulla tenetur sit saepe quia voluptatibus asperiores?
+		</p>
+	
+	<div>
+		<h4>Soy un h4 dentro de un div</h4>
+		<p>Soy un parrafo "p"</p>
+	</div>
+
+	<p>Soy verde</p>
+
+</body>
+</html>

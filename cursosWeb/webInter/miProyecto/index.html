@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<!--Import Google Icon Font-->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<style>
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+	
+	p {
+		text-align: justify;
+	}
+
+</style>
+<body>
+	
+	<!-- Inicia barra de navegacion-->
+<main> 
+<!-- Dropdown Structure -->
+<div class="">
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="http://www.twitter.com" target="_blank">Twitter</a></li>
+  <li><a href="http://instagram.com" target="_blank">Instagram</a></li>
+  <li class="divider"></li>
+  <li><a href="http://facebook.com" target="_blank">Facebook</a></li>
+</ul>
+<nav>
+  <div class="nav-wrapper">
+    <a href="#!" class="brand-logo">&nbsp;Mi Logo</a>
+		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="inicio.html">Inicio</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <!-- Dropdown Trigger -->
+      <!-- En este caso la etiqueta i es para meter íconos-->
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Redes Sociales<i class="material-icons right">arrow_drop_down</i></a></li>
+    </ul>
+    	<ul class="side-nav" id="mobile-demo">
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Redes Sociales<i class="material-icons right">arrow_drop_down</i></a></li>
+    </ul>
+    </div>
+  </nav>    
+</div>
+
+	<!--Termina barra de navegación-->
+
+	<div class="container">
+		<div class="row">
+			<div class="col m6 s12">
+				<h3>¿Quiénes somos?</h3>
+				<p>Nosotros somos Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consectetur accusamus architecto obcaecati! Laudantium repudiandae ut, amet libero vel, accusantium dicta reiciendis quod, qui fuga commodi tempore mollitia harum esse.</p>
+			</div>
+			<div class="col m6 s12">
+				<h3>Acerca de...</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore atque dolor et at fugit velit blanditiis, tenetur provident eius, commodi, eaque natus aut consectetur animi illum dignissimos? Deserunt, eaque, aliquid.</p>
+			</div>			
+		</div>
+
+		<div class="row">
+			<div class="col m4 s4">
+				<h4>Misión</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni fuga voluptatibus perspiciatis vero molestiae, aspernatur. Nam rerum fuga architecto ab sit deleniti consectetur tempora adipisci odit accusantium! Praesentium, ducimus, non.</p>	
+			</div>
+			<div class="col m4 s4">
+				<h4>Visión</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deserunt non quidem, iusto earum voluptate fugiat laboriosam dolore possimus natus quae in maxime nesciunt adipisci alias quo veniam nulla expedita!</p>
+			</div>
+			<div class="col m4 s4">
+				<h4>Objetivos</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, ullam rerum accusamus id distinctio beatae quas, nam nulla ab laboriosam quo omnis sapiente mollitia perferendis quaerat eos. Atque, aut, maiores.</p>
+			</div>
+		</div>
+	</div>
+
+	</main>
+	<!--Inicia el footer-->
+ <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+							<div class="col m6">
+								<h5 class="white-text">Baja nuestra app</h5>
+								<p class="white-text">Aquí debería estar una imagen con
+								los logos de las tiendas de app más
+								famosas</p>	
+							</div>
+							<div class="col m6 center">
+								<h5 class="white-text">Contacto</h5>
+								<span class="white-text">contacto@proteco.mx</span>
+							</div>							
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container center">
+            <!--Small para hacer más pequeño el texto-->
+            <small>© 2017 Copyright Text</small>
+            </div>
+          </div>
+  </footer>
+	<!--Termina el footer-->
+</body>
+    <!--Aquí puede ir el código de JavaScript-->
+    <!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+<!--function es una función anónima-->
+<script>$(document).ready(function(){
+    $(".button-collapse").sideNav();
+		});
+</script>
+	<!--Aquí puede ir el código de JavaScript-->
+</html>

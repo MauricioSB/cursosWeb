@@ -1,0 +1,46 @@
+/* EL modelo de cajas se ajusta a 400px*/
+.divHijo {
+	/*Fondo de la página */
+	background: #ff8000;
+	/*Ancho*/
+
+	/*Margen interior*/
+	padding: 0px;
+	/*Borde*/
+	border: 0px solid #000000;
+	/*Fixed deja fijo el objeto*/
+	/*position: fixed;*/
+	/*relativo a la etiqueta padre*/
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	/*Margen exterior*/
+	/*margin: 20px 50px;*/
+	/*ctrl + sfhit + c = sacar el color*/
+	/*Posicionamiento y posicionamiento por defecto static*
+	*/
+	/*position: static;*/
+	/*absolute toma como referencia el inicio
+	de pantalla (lado izquierdo)*/
+	/*position: absolute;*/
+	/*Arriba*/
+	/*top: 0px;
+	/*Abajo*/
+	/*bottom: 0px;
+	/*Derecha*/
+	/*right: 0px;
+	/*Izquiera*/
+	/*left: 0px;*/
+
+}
+
+.divPadre {
+	background: #ff8000;
+	/*Margen interior*/
+	padding: 0px;
+	/*Borde*/
+	border: 0px solid #000000;
+	position: absolute;
+	top: 20px;
+	right: 20px;	
+}
